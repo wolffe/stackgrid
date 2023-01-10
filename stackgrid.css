@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background: #1e1e1e;
+    font-family: sans-serif;
+}
+
+.stack-container {
+    position: relative;
+    margin: auto;
+}
+
+.stack-card {
+    border-radius: 2px;
+    position: absolute;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+}
+.stack-card .header {
+    width: 100%;
+    background: #3742fa;
+}
+.stack-card .title {
+    color: #ffffff;
+    padding: 16px 16px;
+    width: 100%;
+}
+.stack-card .content {
+    padding: 16px;
+    background: #fffefa;
+    overflow: hidden;
+}
+.stack-card img {
+    width: 100%;
+    margin-botton: 0;
+    display: block;
+}
